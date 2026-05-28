@@ -192,10 +192,10 @@ export default function AcademicResults() {
     ];
 
     const semesterData = [
-        { sem: "Sem 1", sgpa: "8.63", year: "2023-24", subjects: ["C Programming", "Calculus", "Physics"], link: "https://drive.google.com/file/d/1_Qt0mG3FR9XLZJcEHLXpjxgyLXELp1I4/view?usp=drive_link" },
+        { sem: "Sem 1", cgpa: "8.63", year: "2023-24", subjects: ["C Programming", "Calculus", "Physics"], link: "https://drive.google.com/file/d/1_Qt0mG3FR9XLZJcEHLXpjxgyLXELp1I4/view?usp=drive_link" },
         {
             sem: "Sem 2",
-            sgpa: "7.17",
+            cgpa: "-",
             year: "2023-24",
             subjects: ["Data Structures", "Electronics", "Chemistry"],
             links: [
@@ -204,12 +204,12 @@ export default function AcademicResults() {
                 { label: "View Extra 2", url: "" }
             ]
         },
-        { sem: "Sem 3", sgpa: "7.61", year: "2024-25", subjects: ["Java", "Discrete Math", "Digital Logic"], link: "https://drive.google.com/file/d/1pDbKiaF2qWIFnWqkaWdAp_A_CKZdL1ap/view?usp=drive_link" },
-        { sem: "Sem 4", sgpa: "8.28", year: "2024-25", subjects: ["OS", "Algorithms", "DBMS"], link: "https://drive.google.com/file/d/1RrDzT95S610csz7AqKOdfloh1yozogyx/view?usp=drive_link" },
-        { sem: "Sem 5", sgpa: "-", year: "2025-26", subjects: ["Computer Networks", "TOC", "Web Tech"] },
-        { sem: "Sem 6", sgpa: "-", year: "2025-26", subjects: ["Software Eng", "Compiler", "Cloud"] },
-        { sem: "Sem 7", sgpa: "-", year: "2026-27", subjects: ["Machine Learning", "IoT", "Cyber Security"] },
-        { sem: "Sem 8", sgpa: "-", year: "2026-27", subjects: ["Project", "Professional Ethics", "Elective"] }
+        { sem: "Sem 3", cgpa: "-", year: "2024-25", subjects: ["Java", "Discrete Math", "Digital Logic"], link: "https://drive.google.com/file/d/1pDbKiaF2qWIFnWqkaWdAp_A_CKZdL1ap/view?usp=drive_link" },
+        { sem: "Sem 4", cgpa: "-", year: "2024-25", subjects: ["OS", "Algorithms", "DBMS"], link: "https://drive.google.com/file/d/1RrDzT95S610csz7AqKOdfloh1yozogyx/view?usp=drive_link" },
+        { sem: "Sem 5", cgpa: "-", year: "2025-26", subjects: ["Computer Networks", "TOC", "Web Tech"], link: "https://drive.google.com/file/d/1t_WYbIQHExLH09u59B1Qb2YbL7vz1k1o/view?usp=drive_link" },
+        { sem: "Sem 6", cgpa: "-", year: "2025-26", subjects: ["Software Eng", "Compiler", "Cloud"], link: "" },
+        { sem: "Sem 7", cgpa: "-", year: "2026-27", subjects: ["Machine Learning", "IoT", "Cyber Security"], link: "" },
+        { sem: "Sem 8", cgpa: "-", year: "2026-27", subjects: ["Project", "Professional Ethics", "Elective"], link: "" }
     ];
 
     return (
